@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below: credit \"Levier\" and link to https://levier.be/. Upstream source: Statbel (CC BY 4.0)."
+type: dataset
+title: "Belgium house & apartment prices by municipality, Q1 2010–Q1 2026"
+version: "2026-10-08"
+date-released: "2026-10-08"
+authors:
+  - name: "Levier"
+    website: "https://levier.be/"
+  - family-names: "Bouhmou"
+    given-names: "Rachid"
+license: CC-BY-4.0
+url: "https://levier.be/donnees-ouvertes"
+repository-code: "https://github.com/rachid1203/levier-belgium-house-prices"
+repository: "https://levier.be/api/donnees-ouvertes/csv"
+abstract: >-
+  Quarterly median sale prices of houses and apartments for every Belgian
+  municipality (INS/NIS code), Q1 2010 to Q1 2026, in long CSV format.
+  Medians as published by Statbel (FPS Economy, Directorate-General
+  Statistics - Statistics Belgium) and reshaped by Levier. Snapshot of
+  8 October 2026: 22,991 data rows, 437 INS codes, 65 quarters.
+  SHA-256 of the CSV: c832122d75bce06e258a409f79982c617e0755d3a265c3ebf4be004c5022b79a.
+keywords:
+  - Belgium
+  - real estate
+  - house prices
+  - apartment prices
+  - municipalities
+  - Statbel
+  - open data
+  - time series
+references:
+  - type: data
+    title: "Prix de l'immobilier (real estate prices), ventes de biens immobiliers par trimestre et par commune"
+    authors:
+      - name: "Statbel (Directorate-General Statistics - Statistics Belgium)"
+    url: "https://statbel.fgov.be/fr/themes/construction-logement/prix-de-limmobilier"
+    license: CC-BY-4.0
